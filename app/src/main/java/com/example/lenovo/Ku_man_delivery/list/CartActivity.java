@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.example.lenovo.Ku_man_delivery.R;
 
-import com.example.lenovo.Ku_man_delivery.data.user.User;
+import com.example.lenovo.Ku_man_delivery.data.user.FoodCart;
 import com.example.lenovo.Ku_man_delivery.data.food.Food;
 import com.example.lenovo.Ku_man_delivery.data.food.FoodAdapter;
 
@@ -30,7 +30,7 @@ public class CartActivity extends AppCompatActivity {
 
 
 
-    User user = new User();
+    FoodCart user = new FoodCart();
 
     EditText fund;
     Button purchase;

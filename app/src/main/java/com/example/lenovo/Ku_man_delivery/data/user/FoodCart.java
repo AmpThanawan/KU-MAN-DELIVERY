@@ -9,12 +9,12 @@ import java.util.ArrayList;
  * Created by lenovo on 6/4/2017.
  */
 
-public class User {
+public class FoodCart {
 
     private ArrayList<Food> cart;
     private ArrayList<Food> myFoodList;
 
-    public User() {
+    public FoodCart() {
 
         cart = new ArrayList<Food>();
         myFoodList = new ArrayList<Food>();
