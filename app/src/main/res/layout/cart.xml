@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="Arial"
+
+        />
+
+    <ListView
+        android:id="@+id/cart_list"
+        android:layout_width="600dp"
+        android:layout_height="250dp"
+        android:background="#c0c0c0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/header"
+         />
+
+    <TextView
+        android:id="@+id/total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price :  "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/cart_list"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="Arial"
+
+        />
+
+    <TextView
+        android:id="@+id/num_total_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/total_price"
+        android:layout_below="@+id/cart_list"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="Arial"
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/purchase"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#000000"
+        android:text="purchase"
+        android:onClick="Payment"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+       android:layout_below="@+id/total_price"
+       />
+
+
+
+</RelativeLayout>
